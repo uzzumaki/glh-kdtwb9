@@ -1,0 +1,713 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Michigan State vs. University of Michigan: 2 Public University Comparisons</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="31eec5e9-274e-8110-8e4a-fa237bf1a45f" class="page sans"><header><h1 class="page-title" dir="auto">Michigan State vs. University of Michigan: 2 Public University Comparisons</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8148-a593-f08b5da52144" class="">Michigan State University and the University of Michigan represent two distinct public higher education institutions within the state of Michigan. These universities differ in academic profiles, research priorities, campus environments, and athletic traditions. This analysis examines specific distinctions across several key comparative metrics.</p></div><div style="display:contents" dir="auto"><blockquote id="31eec5e9-274e-81f5-95d0-e0429b56c077" class="">TL;DR: Michigan State University and the University of Michigan are both prominent public universities, with the University of Michigan generally holding higher national academic rankings, such as #21 among national universities by U.S. News &amp; World Report 2024, compared to Michigan State University&#x27;s #78 ranking.</blockquote></div><div style="display:contents" dir="auto"><h2 id="31eec5e9-274e-8157-83da-ca04589222d6" class="">What defines Michigan State University and the University of Michigan?</h2></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8182-a94a-c20b17cb21d2" class=""><strong>Michigan State University and the University of Michigan are both public research universities established in the 19th century, serving as foundational institutions for higher education in Michigan.</strong> MSU, founded in 1855, is a land-grant university, notable for its agricultural and veterinary medicine programs. U-M, established in 1817, is a flagship public university, recognized for its comprehensive research and diverse academic offerings. Both are members of the Big Ten Conference.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81c4-a7df-cc845a45f901" class=""><strong>Citation Capsule:</strong> The University of Michigan was founded in 1817 in Detroit before relocating to Ann Arbor in 1837, making it the state&#x27;s oldest university. Michigan State University was established in 1855 as the Agricultural College of the State of Michigan, becoming the nation&#x27;s pioneer land-grant institution under the Morrill Act. University of Michigan History Office 2023.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-81a3-a48d-cc9cbf2196b9" class="">What are the primary academic focuses of each institution?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-817c-915d-dcbe143b9d60" class=""><strong>Michigan State University is known for its strong programs in agriculture, packaging, hospitality business, and veterinary medicine.</strong> The university offers over 200 undergraduate programs and 275 graduate programs across 17 degree-granting colleges. The College of Agriculture and Natural Resources, for example, is a prominent unit MSU College of Agriculture and Natural Resources.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81c2-8e23-f0ffa9ab7d1c" class=""><strong>The University of Michigan specializes in engineering, business, law, and medicine, alongside strong liberal arts and sciences.</strong> U-M offers over 275 degree programs through 19 schools and colleges. The Stephen M. Ross School of Business consistently ranks among the top business schools nationally Michigan Ross School of Business. How do these foundational differences shape their current academic missions?</p></div><div style="display:contents" dir="auto"><h2 id="31eec5e9-274e-81a4-b011-f01dbca09c6c" class="">How do the academic rankings of MSU and U-M compare?</h2></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-811c-8b39-e5556bccade9" class=""><strong>The University of Michigan generally achieves higher national and global academic rankings compared to Michigan State University across various metrics.</strong> According to the U.S. News &amp; World Report 2024 rankings, the University of Michigan holds the #21 position among national universities. Michigan State University ranks #78 in the same national universities category. This represents a 57-position difference in overall national standing.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8108-b7b8-d5eb50b5f1f0" class=""><strong>Citation Capsule:</strong> Global university rankings also reflect this disparity; the QS World University Rankings 2024 placed the University of Michigan at #33 globally. Michigan State University was ranked between #171-180 worldwide, indicating a significant difference in international academic perception.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-81fc-bab5-c2c3e2374750" class="">What are the national university rankings?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8183-a6da-e777ac6eb1f6" class=""><strong>In national university rankings, the University of Michigan consistently places within the top 25 institutions.</strong> For example, U.S. News &amp; World Report 2024 ranks U-M at #21. Michigan State University typically ranks within the top 100, achieving #78 in the same report. Are these overall rankings indicative of all program strengths?</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-817e-9143-d5bbdb099e29" class="">Which university excels in specific program areas?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-813e-8d6c-c2636a04c791" class=""><strong>The University of Michigan shows particular strength in graduate programs such as engineering, law, and medicine.</strong> The U-M College of Engineering ranked #7 nationally in 2024, according to U.S. News &amp; World Report.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81fd-9596-f9c624415498" class=""><strong>Michigan State University demonstrates excellence in specific programs like supply chain management, packaging, and veterinary medicine.</strong> The Broad College of Business at MSU ranked #2 nationally for its supply chain management program in 2024 MSU Broad College of Business.</p></div><div style="display:contents" dir="auto"><h2 id="31eec5e9-274e-81dd-975e-ce88c1784607" class="">What are the key differences in campus environment and student life?</h2></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81e6-a36e-f748721d354b" class=""><strong>The campus environments of Michigan State University and the University of Michigan present distinct characteristics shaped by their locations, architecture, and student populations.</strong> MSU, situated in East Lansing, features a sprawling, park-like campus with significant green spaces and a traditional collegiate Gothic architectural style. U-M, located in Ann Arbor, integrates its campus more closely with the urban environment, characterized by a mix of historic and modern buildings. MSU Campus Planning 2023 reports 5,300 acres for MSU, while U-M Facilities 2023 indicates 3,207 acres for its main campus.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81e6-bb66-e743986b4e80" class=""><strong>Citation Capsule:</strong> The University of Michigan&#x27;s campus in Ann Arbor is often described as a vibrant college town, with approximately 123,000 residents as of 2022 U.S. Census Bureau. Michigan State University&#x27;s campus in East Lansing is also a college town, with a population of around 47,000 residents in 2022, offering a different scale of urban integration.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-8102-bc99-dfcdb23b1109" class="">How do their geographic locations influence campus culture?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-812a-9514-d7b07849d1f5" class=""><strong>East Lansing&#x27;s culture around MSU fosters a strong sense of community centered on campus life and Big Ten athletics.</strong> The city directly borders the university, creating an integrated college town experience. Ann Arbor, home to U-M, offers a more diverse urban experience with a wider array of cultural institutions and dining options.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-8187-91a9-fef523ff69c7" class="">What are the enrollment figures for each institution?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81f7-840c-f864a3606ef1" class=""><strong>Michigan State University typically has a larger undergraduate population compared to the University of Michigan, though U-M has a larger total enrollment due to graduate students.</strong> In Fall 2023, MSU reported 39,261 undergraduate students, while U-M reported 32,695 undergraduate students MSU Office of Planning and Budgets and U-M Office of the Registrar. What are the implications of these enrollment differences for student experience?</p></div><div style="display:contents" dir="auto"><h2 id="31eec5e9-274e-814e-9ffd-e1227aee8439" class="">How do the costs of attendance and admissions selectivity vary?</h2></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-812a-9d7a-fc279910aa42" class=""><strong>The cost of attendance and admission selectivity differ between Michigan State University and the University of Michigan, with U-M generally presenting higher costs and lower acceptance rates.</strong> For the 2023-2024 academic year, in-state tuition and fees at the University of Michigan were approximately $17,786, while at Michigan State University, they were around $16,752 U-M Office of Financial Aid and MSU Office of Financial Aid. This represents a difference of $1,034 for in-state students.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8167-982d-f066fabd1252" class=""><strong>Citation Capsule:</strong> The University of Michigan&#x27;s out-of-state tuition and fees for 2023-2024 were approximately $58,072, significantly higher than Michigan State University&#x27;s $41,202 for non-residents. This nearly $17,000 difference impacts affordability for students outside of Michigan. U-M Office of Financial Aid.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-8113-a02e-ee8a24677aaf" class="">What is the average tuition for in-state and out-of-state students?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8166-8f71-f8d3009b07a3" class=""><strong>In-state tuition for the 2023-2024 academic year was $16,752 at Michigan State University and $17,786 at the University of Michigan.</strong> Out-of-state tuition was $41,202 at MSU and $58,072 at U-M MSU Office of Financial Aid and U-M Office of Financial Aid.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-81f9-91c2-f861116aeb62" class="">What are the acceptance rates for prospective students?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8114-84d2-cfa59fb7f5d7" class=""><strong>The University of Michigan typically has a lower acceptance rate, indicating higher selectivity, compared to Michigan State University.</strong> For Fall 2023, U-M&#x27;s acceptance rate was approximately 18%, while MSU&#x27;s was around 88% U-M Admissions and MSU Admissions. This signifies a 70-percentage-point difference in admission selectivity.</p></div><div style="display:contents" dir="auto"><h2 id="31eec5e9-274e-81e1-99e1-f41d65ee85c4" class="">What is the significance of the athletic rivalry between these two universities?</h2></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8112-8047-d68a14b0da11" class=""><strong>The athletic rivalry between Michigan State University and the University of Michigan is one of the most intense in collegiate sports, particularly in football and basketball.</strong> The football game, known as &quot;The Big Game,&quot; draws millions of viewers annually. The University of Michigan has a historical lead in the football series, with a record of 73 wins, 38 losses, and 5 ties as of 2023. Michigan State has 38 wins in the series.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81b4-a660-f3dcc42da1dd" class=""><strong>Citation Capsule:</strong> The rivalry extends beyond football, with significant matchups in men&#x27;s basketball that frequently impact Big Ten Conference standings. As of the end of the 2022-2023 season, the University of Michigan leads the all-time series in men&#x27;s basketball with 103 wins to Michigan State&#x27;s 88 wins.</p></div><div style="display:contents" dir="auto"><h2 id="31eec5e9-274e-816f-b208-cd4f89662a6c" class="">What are the distinct research focuses and expenditures of MSU and U-M?</h2></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-811b-bbde-e6c8550e4f1d" class=""><strong>Michigan State University and the University of Michigan both conduct extensive research, but their primary areas of focus and expenditure levels show distinct patterns.</strong> The University of Michigan consistently ranks among the top public universities nationally for research expenditures. In fiscal year 2022, U-M reported research expenditures exceeding $1.71 billion U-M Office of Research. Michigan State University reported over $750 million in research expenditures for the same period MSU Office of Research and Innovation.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81fb-8abf-dda3e165f638" class=""><strong>Citation Capsule:</strong> Michigan State University is a global leader in plant science research, with significant contributions to agricultural biotechnology and sustainable energy. The MSU-DOE Plant Research Laboratory, established in 1965, exemplifies this long-standing commitment to plant biology.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-81e7-93a9-ce5293ad45f2" class="">What are the primary research strengths of Michigan State University?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8132-8def-c8230abfbb11" class=""><strong>Michigan State University is recognized for its research in plant sciences, nuclear physics, and infectious diseases.</strong> The Facility for Rare Isotope Beams (FRIB) at MSU, a U.S. Department of Energy Office of Science user facility, is a world-leading center for nuclear science FRIB at MSU.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-8113-88e1-f6e0221fed40" class="">What are the primary research strengths of the University of Michigan?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81ac-a878-f733e2d7c71c" class=""><strong>The University of Michigan excels in biomedical research, automotive engineering, and social sciences.</strong> U-M&#x27;s Medical School alone receives hundreds of millions in research funding annually from the National Institutes of Health U-M Medical School Research.</p></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81f8-9dd0-eb3fa7b1009b" class="">Michigan State University and the University of Michigan maintain unique identities within the higher education landscape. U-M is consistently ranked higher nationally and globally, boasts a larger research enterprise, and is more selective in admissions. MSU offers a distinct land-grant mission, a different campus environment, and specific program strengths. Prospective students evaluate these differences in academic focus, cost, campus culture, and research opportunities to determine the best institutional fit.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-8184-b3e1-d73b4bc2bad4" class="">Is Michigan State University larger than the University of Michigan?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81e4-9b1a-c90d497b2c8b" class=""><strong>Michigan State University has a larger undergraduate enrollment, with 39,261 students in Fall 2023, compared to the University of Michigan&#x27;s 32,695 undergraduates.</strong> However, U-M has a larger total student population, including graduate students MSU Office of Planning and Budgets.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-819f-891e-e9f6eeb0ca7e" class="">Which university is more expensive for out-of-state students?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-8108-802c-d842ed7bc93d" class=""><strong>The University of Michigan is more expensive for out-of-state students, with tuition and fees around $58,072 for 2023-2024.</strong> Michigan State University&#x27;s out-of-state tuition and fees were approximately $41,202 for the same period U-M Office of Financial Aid.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-81b6-963c-d0f4d50f3423" class="">Which university has a higher national ranking?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-812a-9f08-f06b6fc7b445" class=""><strong>The University of Michigan holds a higher national ranking, positioned at #21 among national universities by U.S. News &amp; World Report 2024.</strong> Michigan State University is ranked #78 in the same category.</p></div><div style="display:contents" dir="auto"><h3 id="31eec5e9-274e-81dd-9f77-f21aebf165a1" class="">What is the acceptance rate difference between MSU and U-M?</h3></div><div style="display:contents" dir="auto"><p id="31eec5e9-274e-81b1-a01c-d5b7f0b8c419" class=""><strong>The University of Michigan has a significantly lower acceptance rate, approximately 18% for Fall 2023, indicating higher selectivity.</strong> Michigan State University&#x27;s acceptance rate for the same period was around 88% U-M Admissions.</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
